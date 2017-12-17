@@ -10,11 +10,18 @@
     <version>1.1-SNAPSHOT</version>
   </parent>
 
-  <groupId>by.htp.socialnetwork</groupId>
   <artifactId>service</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>service</name>
   <url>http://maven.apache.org</url>
+
+  <dependencies>
+    <dependency>
+      <groupId>by.htp.socialnetwork</groupId>
+      <artifactId>repository</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
 
   <build>
     <finalName>service</finalName>
